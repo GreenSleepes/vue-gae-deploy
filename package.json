@@ -1,0 +1,16 @@
+{
+  "name": "vue-gae-deploy",
+  "version": "1.0.0",
+  "description": "A simple tool for deploying a Google App Engine project with a Vue CLI project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "deploy",
+    "gae",
+    "javascript",
+    "vue"
+  ],
+  "author": "GreenSleepes"
+}
