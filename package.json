@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple tool for deploying a Google App Engine project with a Vue CLI project.",
   "main": "index.js",
-  "scripts": {
-    "start": "node index"
+  "bin": {
+    "vgdeploy": "./bin/vgdeploy.js"
   },
   "keywords": [
     "deploy",
@@ -12,5 +12,17 @@
     "javascript",
     "vue"
   ],
-  "author": "GreenSleepes"
+  "author": "GreenSleepes",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenSleepes/vue-gae-deploy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreenSleepes/vue-gae-deploy/issues"
+  },
+  "homepage": "https://github.com/GreenSleepes/vue-gae-deploy#readme"
 }
